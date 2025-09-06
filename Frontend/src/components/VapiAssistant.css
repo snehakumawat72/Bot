@@ -1,0 +1,42 @@
+.vapi-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 3rem;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  color: black;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.vapi-title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #25159d;
+}
+
+.vapi-description {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  color:black;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vapi-button-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0, 123, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+
+.vapi-button-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
